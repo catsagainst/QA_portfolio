@@ -1,0 +1,14 @@
+{
+	"Test_case_ID": "5",
+	"Title": "Verify the password cannot be copy-pasted'",
+	"Steps":
+	{
+		"1": "Open the app",
+		"2": "Click sign-up form",
+		"3": "Enter password in the password field",
+		"4": "Copy the password and past it in the password repeat form'"
+	},
+	"Expected result": "System shouldn’t allow user to copy paste password",
+	"Environment": "macOS 12.4, Safari 15.5",
+	"Status": "Passed"
+}

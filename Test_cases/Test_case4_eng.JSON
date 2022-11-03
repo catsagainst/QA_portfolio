@@ -1,0 +1,14 @@
+{
+	"Test_case_ID": "4",
+	"Title": "No Internet push notification has the button 'OK'",
+	"Steps":
+	{
+		"1": "Open the app",
+		"2": "Sign in in the app",
+		"3": "In the setting make Internet connection disabled",
+		"4": "Click the button 'My orders'"
+	},
+	"Expected result": "There is button 'OK' on the No Internet push notification",
+	"Environment": "macOS 12.4. emulator Android Studio, Galaxy 3 device, OS Android 9.0 Pie, 720x1280, 4.7' App Version 2.0",
+	"Status": "Passed"
+}
