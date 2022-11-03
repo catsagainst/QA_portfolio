@@ -1,0 +1,13 @@
+{
+	"Bug_ID": "BUG_3",
+	"Priority": "Medium",
+	"Summary": "Responce 400 in POST api/v1/courier request while courier creation without filling non-obligatory firstName",
+	"Steps to reproduce": 
+	{ 
+		"1": "Fill the request in Postman: POST 'https://5bd7ed07-e81e-4a15-a2e9-54093634d2e2.serverhub.praktikum-services.ru/api/v1/courier'",
+		"2": "In the body of the request fill in: 'login': 'Max', 'password': '1875','firstName': "
+	},
+	"Expected result": "OK 201 Created. In the database a new record abt the couirer appears",
+	"Actual result": "Error 400",
+	"Attach": "True"
+}

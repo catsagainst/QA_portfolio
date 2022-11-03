@@ -1,0 +1,13 @@
+{
+	"Bug_ID": "BUG_4",
+	"Priority": "Medium",
+	"Summary": "No error message in the field 'Surname' when the lenght is more than 15 symbols",
+	"Steps to reproduce": 
+	{ 
+		"1": "Go to the registration form",
+		"2": "In the 'Surname' field enter 'Smithhhhhhhhhhhh'"
+	},
+	"Expected result": "The error message 'The Surname cannot be more than 15 symbols",
+	"Actual result": "There is no error message",
+	"Attach": "True"
+}
