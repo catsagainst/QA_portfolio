@@ -7,7 +7,7 @@ driver = webdriver.Chrome()
 
 def test_login_form():
     driver.get("https://www.litecart.net/")
-    langs=["es", "en", "it", "lt", "fr", "fi", "ar", "el", "vi", "hu", "da", "tr", "nl", "sv", "fa", "th", "id", "de"]
+    langs=["es", "en", "it", "lt", "fr", "fi", "ar", "el", "vi", "hu", "da", "tr", "nl", "sv", "fa", "th", "id", "de", "en"]
 
     for i in langs:
         login_button = driver.find_element(By.XPATH, "//li[@class='languages dropdown']")
