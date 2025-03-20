@@ -1,8 +1,0 @@
-language: node.js
-node_js:
-  - "14.4.0"
-
-install: npm install newman
-
-script:
-  - node.modules/.bin/newman run tests/BC.json
